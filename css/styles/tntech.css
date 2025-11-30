@@ -1,0 +1,84 @@
+/* =========================================
+   PRIMARY COLOR — #582C83
+========================================= */
+
+ul#navigation li.external:hover .icon, 
+ul#navigation li.currentmenu .icon {
+    color: #582C83;
+}
+
+.ul-boxed li {
+    border-left-color: #582C83;
+}
+
+ul.ul-card li .dy .year {
+    background-color: #582C83;
+}
+
+ul.ul-dates div.dates span {
+    background-color: #582C83;
+}
+
+ul.timeline li .date {
+    background: #582C83;
+}
+
+ul.timeline li .data {
+    border-left-color: #582C83;
+}
+
+.ul-withdetails li .imageoverlay {
+    background: #582C83;
+}
+
+.cd-active.cd-dropdown > span {
+    color: #582C83;
+}
+
+.cd-active.cd-dropdown ul li span:hover {
+    background: #582C83;
+}
+
+.pitems .pubmain .pubassets {
+    border-top-color: #582C83;
+}
+
+.pitems .pubmain .pubassets a:hover,
+.pitems .pubmain .pubassets a:focus,
+.pitems .pubmain .pubassets a.pubcollapse {
+    background: #582C83;
+}
+
+.contact-office .icon-huge, 
+.contact-lab .icon-huge {
+    color: #582C83;
+}
+
+
+/* =========================================
+   SECONDARY / HOVER COLOR — #7A46A8
+========================================= */
+
+ul.ul-card li .dy .degree {
+    background-color: #7A46A8;
+}
+
+ul.ul-dates div.dates span:last-child {
+    background-color: #7A46A8;
+}
+
+ul.timeline li.open .circle {
+    background-color: #7A46A8;
+}
+
+ul.timeline li.open .data {
+    border-color: #7A46A8;
+}
+
+#labp-heads-wrap {
+    background-color: #7A46A8;
+}
+
+#labp-heads-wrap:after {
+    border-top-color: #7A46A8;
+}
