@@ -224,9 +224,38 @@ ul.pre-styles li:hover{
 .margin_bottom{margin-bottom: 20px;}
 .custom_margin_bottom{margin-bottom: 20px;}
 
+.pagecontents{display:block !important;}
+
+
+
 
 
 /* --- Custom Styles for Visitor Map --- */
+
+/* Fix for embedded visitor map (targets actual id used in HTML) */
+#map_container {
+  margin-top: 20px;
+  padding: 12px;
+  background: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+  overflow: hidden;        /* ensures injected map stays within container */
+  position: relative;      /* create a stacking context */
+  z-index: 0;              /* stay behind elements that should overlay */
+}
+
+/* Ensure the embedded map element (iframe, object, or div) stays within the container */
+#map_container iframe,
+#map_container object,
+#map_container embed,
+#map_container > div {
+  position: relative !important;
+  z-index: 0 !important;
+  max-width: 100%;
+  border: none;
+  display: block;
+}
+
 
 /* #visitor-map-container {
 /*   margin-top: 30px;         /* Adds space below the title */  
@@ -240,3 +269,5 @@ ul.pre-styles li:hover{
 
 /* Optional: Ensures the map itself is responsive */
 /* #visitor-map-container iframe,#visitor-map-container object,#visitor-map-container embed {max-width: 100%;border: none;}
+
+
